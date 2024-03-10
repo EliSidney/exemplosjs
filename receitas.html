@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sua Página</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Estilos personalizados */
+    .nav-link:hover {
+      color: red; /* Mudando a cor do texto ao passar o mouse */
+    }
+
+    /* Estilo para o footer */
+    footer {
+      background-color: yellow; /* Cor de fundo amarelo */
+      position: fixed; /* Posicionamento fixo */
+      bottom: 0; /* Fixando no rodapé */
+      width: 100%; /* Largura total */
+    }
+    body {
+        background-color: #FFC107;
+    }
+    /* Ajuste para as imagens das receitas */
+    .card-img-top {
+      width: 100%;
+      height: auto;
+    }
+
+    nav {
+    display: flex;
+    gap: 3rem;
+    background-color: white;
+    width: 100%;
+    padding: 1%;
+    }
+
+nav a{
+    display: flex;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background: rgb(127, 182, 255);
+    border-radius: 50px;
+    border: solid rgb(83, 126, 207);
+    padding: 5px;
+    font-weight: 600;
+    color:navy;
+}
+
+nav a:hover {
+    background-color: aqua;
+    transition: 0.75s;
+}
+  </style>
+</head>
+<body style="margin-bottom: 60px;"> <!-- Adicionando margem inferior para o footer -->
+
+  <!-- Header com 3 botões de navegação -->
+  <header>
+    <nav>
+        <a href="./index.html"><h1>1° Procedimento</h1></a>
+        <a href="./receitas.html">2° Procedimento</a>
+        <a href="./usuarios.html">3° Procedimento</a>
+    </nav>
+</header>
+
+  <!-- Seção central com Bootstrap (3 colunas de receitas) -->
+  <section class="container mt-4">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://s2.glbimg.com/OiyeN6B7JlvqPXVHYBxj2kjOel4=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2023/E/M/IByRmRTeqZYwQMBHDFsw/brownie-simples-de-cacau-com-morango.jpg" alt="Imagem do brownie">
+          <div class="card-body">
+            <h5 class="card-title">Brownie Simples de Cacau</h5>
+            <p class="card-text"><strong>Ingredientes:</strong></p>
+            <ul>
+              <li>2 xícaras de tâmaras sem caroço</li>
+              <li>Três quartos de xícara de cacau em pó</li>
+              <li>Um terço de xícara de óleo de coco</li>
+              <li>2 ovos</li>
+              <li>1 colher de chá de extrato de baunilha</li>
+              <li>1 pitada de sal</li>
+              <li>1 colher de chá de canela em pó</li>
+            </ul>
+            <p class="card-text"><strong>Modo de Preparo:</strong></p>
+            <ol>
+              <li>Deixe as tâmaras na água em tempera ambiente por 1 hora e 30 minutos, ou em água quente por 30 minutos, assim elas vão amolecer.</li>
+              <li>Escorra a água das tâmaras.</li>
+              <li>No liquidificador, coloque as tâmaras sem o caroço, o cacau em pó, o óleo de coco, os ovos, o extrato de baunilha, o sal e a canela em pó.</li>
+              <li>Bata tudo até que fique uma massa homogênea.</li>
+              <li>Unte a assadeira com óleo de coco e despeje a mistura do liquidificador sobre ela.</li>
+              <li>Nivele bem a massa e leve ao forno a 170 graus Célsius por 20 minutos.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://receitadevovo.com.br/wp-content/uploads/2021/08/bolo-de-cafe-simples-5-ingredientes-ingredientes-1200x800.jpg" alt="Imagem do bolo de café">
+          <div class="card-body">
+            <h5 class="card-title">Bolo de Café</h5>
+            <p class="card-text"><strong>Ingredientes:</strong></p>
+            <ul>
+              <li>2 xícaras de farinha de trigo</li>
+              <li>1 xícara de açúcar</li>
+              <li>1/2 xícara de óleo</li>
+              <li>1 xícara de café coado e frio</li>
+              <li>1 colher de sopa de fermento em pó</li>
+            </ul>
+            <p class="card-text"><strong>Modo de Preparo:</strong></p>
+            <ol>
+              <li>Misture todos os ingredientes secos em uma tigela.</li>
+              <li>Acrescente o óleo e o café coado e misture bem.</li>
+              <li>Adicione o fermento e misture delicadamente.</li>
+              <li>Despeje a massa em uma forma untada e enfarinhada.</li>
+              <li>Leve ao forno preaquecido a 180°C por aproximadamente 30 minutos, ou até que ao enfiar um palito, ele saia limpo.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://img.itdg.com.br/tdg/images/recipes/000/079/996/21170/21170_original.jpg?mode=crop&width=710&height=400" alt="Imagem da coxinha de brigadeiro">
+          <div class="card-body">
+            <h5 class="card-title">Coxinha de Brigadeiro</h5>
+            <p class="card-text"><strong>Ingredientes:</strong></p>
+            <ul>
+              <li>1 lata de leite condensado</li>
+              <li>2 colheres (sopa) de manteiga</li>
+              <li>4 colheres (sopa) de chocolate em pó</li>
+              <li>100g de chocolate ao leite picado</li>
+              <li>Chocolate granulado para decorar</li>
+            </ul>
+            <p class="card-text"><strong>Modo de Preparo:</strong></p>
+            <ol>
+              <li>Em uma panela, coloque o leite condensado, a manteiga e o chocolate em pó.</li>
+              <li>Leve ao fogo médio, mexendo sempre, até começar a soltar do fundo da panela.</li>
+              <li>Retire do fogo, adicione o chocolate ao leite picado e mexa até derreter completamente.</li>
+              <li>Transfira para um prato untado com manteiga e deixe esfriar.</li>
+              <li>Com as mãos untadas, modele bolinhas com a massa de brigadeiro.</li>
+              <li>Passe as bolinhas no chocolate granulado e coloque em forminhas de papel.</li>
+              <li>Leve à geladeira por pelo menos 1 hora antes de servir.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <p>Footer</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts do Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
